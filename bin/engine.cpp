@@ -1,7 +1,7 @@
 #include "engine.h"
-#include "./axles.h"
-#include "./point.h"
-#include "./render.h"
+#include "../bin/models/axles.h"
+#include "../bin/models/point.h"
+#include "../bin/actions/render.h"
 #include <iostream>
 #include <string>
 #include <windows.h>

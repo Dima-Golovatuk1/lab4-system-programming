@@ -12,35 +12,35 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="axles.cpp">
-      <Filter>bin\models</Filter>
-    </ClCompile>
-    <ClCompile Include="point.cpp">
-      <Filter>bin\models</Filter>
-    </ClCompile>
-    <ClCompile Include="render.cpp">
-      <Filter>bin\actions</Filter>
-    </ClCompile>
-    <ClCompile Include="engine.cpp">
-      <Filter>bin</Filter>
-    </ClCompile>
     <ClCompile Include="lab4.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="axles.h">
+    <ClCompile Include="bin\models\axles.cpp">
       <Filter>bin\models</Filter>
-    </ClInclude>
-    <ClInclude Include="point.h">
+    </ClCompile>
+    <ClCompile Include="bin\models\point.cpp">
       <Filter>bin\models</Filter>
-    </ClInclude>
-    <ClInclude Include="render.h">
+    </ClCompile>
+    <ClCompile Include="bin\actions\render.cpp">
       <Filter>bin\actions</Filter>
-    </ClInclude>
-    <ClInclude Include="engine.h">
+    </ClCompile>
+    <ClCompile Include="bin\engine.cpp">
       <Filter>bin</Filter>
-    </ClInclude>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bin\models\axles.h">
+      <Filter>bin\models</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\models\point.h">
+      <Filter>bin\models</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\actions\render.h">
+      <Filter>bin\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="bin\engine.h">
+      <Filter>bin</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

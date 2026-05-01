@@ -1,7 +1,7 @@
 #ifndef RENDER_H
 #define RENDER_H
 
-#include "./point.h"
+#include "../models/point.h"
 
 namespace CHART {
     void DrawAxles();

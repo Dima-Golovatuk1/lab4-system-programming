@@ -139,20 +139,20 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="axles.cpp" />
-    <ClCompile Include="engine.cpp" />
+    <ClCompile Include="bin\actions\render.cpp" />
+    <ClCompile Include="bin\engine.cpp" />
+    <ClCompile Include="bin\models\axles.cpp" />
+    <ClCompile Include="bin\models\point.cpp" />
     <ClCompile Include="lab4.cpp" />
-    <ClCompile Include="point.cpp" />
-    <ClCompile Include="render.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="axles.h" />
-    <ClInclude Include="engine.h" />
-    <ClInclude Include="point.h" />
-    <ClInclude Include="render.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bin\actions\render.h" />
+    <ClInclude Include="bin\engine.h" />
+    <ClInclude Include="bin\models\axles.h" />
+    <ClInclude Include="bin\models\point.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

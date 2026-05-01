@@ -1,6 +1,6 @@
 #include "render.h"
-#include "./axles.h"
-#include "./point.h"
+#include "../models/axles.h"
+#include "../models/point.h"
 #include <iostream>
 #include <windows.h>
 
