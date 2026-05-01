@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="bin">
+      <UniqueIdentifier>{c17d35df-6bb7-4851-a165-2488a6634c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bin\models">
+      <UniqueIdentifier>{b5595097-d9ff-4f49-bcd3-d5ccdb46218d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bin\actions">
+      <UniqueIdentifier>{f189cc56-87ee-4cfc-a687-b5861b0401dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="axles.cpp">
+      <Filter>bin\models</Filter>
+    </ClCompile>
+    <ClCompile Include="point.cpp">
+      <Filter>bin\models</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>bin\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>bin</Filter>
+    </ClCompile>
+    <ClCompile Include="lab4.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="axles.h">
+      <Filter>bin\models</Filter>
+    </ClInclude>
+    <ClInclude Include="point.h">
+      <Filter>bin\models</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>bin\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>bin</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+  </ItemGroup>
+</Project>
