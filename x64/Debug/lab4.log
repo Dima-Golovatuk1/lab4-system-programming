@@ -1,7 +1,2 @@
-﻿  render.cpp
-  engine.cpp
-  axles.cpp
-  point.cpp
-  lab4.cpp
-  Generating Code...
+﻿  lab4.cpp
   lab4.vcxproj -> D:\c++\lab4\x64\Debug\lab4.exe

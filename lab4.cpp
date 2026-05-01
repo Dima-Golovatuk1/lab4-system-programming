@@ -1,4 +1,4 @@
-#include "../lab4/bin/engine.h"
+#include "./bin/engine.h"
 #include <cstdlib>
 
 int main() {
